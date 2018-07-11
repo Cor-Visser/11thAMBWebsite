@@ -1,0 +1,61 @@
+//----------------------------------------
+//    About - General
+//----------------------------------------
+
+#about {
+  width: 100%;
+  height: auto;
+  outline: none;
+  padding: 40px 0px;
+  overflow-x: hidden;
+  background-color: $grey;
+}
+
+//----------------------------------------
+//    About - Other
+//----------------------------------------
+
+#about .slides {
+  margin-left: 0%;
+  width: 500%;
+  height: auto;
+  transition: all 0.3s ease-in-out;
+}
+
+#about .slides .slide {
+  width: 20%;
+  float: left;
+  height: auto;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+#about .slide-navigation {
+  width: 100%;
+  height: auto;
+}
+
+#about .slide-navigation .slide-nav {
+
+}
+
+#about .slide-navigation .slide-nav .slide-dots {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+#about .slide-navigation .slide-nav .slide-dots .slide-dot {
+  width: 10px;
+  height: 10px;
+  margin: 0px 5px;
+  border-radius: 50%;
+  display: inline-block;
+  list-style-type: none;
+  background-color: $red;
+}
+
+#about .slide-navigation .button {
+  display: block;
+  margin: 20px 0px;
+}

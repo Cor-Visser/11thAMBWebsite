@@ -1,0 +1,30 @@
+{
+  "name": "11thambwebsite",
+  "version": "1.0.0",
+  "description": "De bestanden voor de website van 11th AMB.",
+  "main": "index.js",
+  "dependencies": {
+    "npm": "^6.1.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.5",
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.3.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglifycss": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cor-Visser/11thAMBWebsite.git"
+  },
+  "author": "Cor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cor-Visser/11thAMBWebsite/issues"
+  },
+  "homepage": "https://github.com/Cor-Visser/11thAMBWebsite#readme"
+}

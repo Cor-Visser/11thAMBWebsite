@@ -1,0 +1,71 @@
+//----------------------------------------
+//    Headings
+//----------------------------------------
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+  color: $black;
+  font-size: 68px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin: 0px;
+  padding: 0px;
+  color: $black;
+  font-size: 42px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin: 0px;
+  padding: 0px;
+  color: $black;
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+//----------------------------------------
+//    Font Face
+//----------------------------------------
+
+@face-face {
+  font-family: 'Source Sans Pro';
+  url: '../../fonts/SourceSansPro-Regular';
+}
+
+@face-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  url: '../../fonts/SourceSansPro-Italic';
+}
+
+@face-face {
+  font-family: 'Source Sans Pro';
+  font-weight: lighter;
+  url: '../../fonts/SourceSansPro-Light';
+}
+
+@face-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: lighter;
+  url: '../../fonts/SourceSansPro-LightItalic';
+}
+
+@face-face {
+  font-family: 'Source Sans Pro';
+  font-weight: bold;
+  url: '../../fonts/SourceSansPro-Bold';
+}
+
+@face-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: bold;
+  url: '../../fonts/SourceSansPro-BoldItalic';
+}

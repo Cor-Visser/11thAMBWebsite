@@ -1,0 +1,13 @@
+//----------------------------------------
+//    Buttons
+//----------------------------------------
+
+.button,
+input[type="submit"] {
+  color: $white;
+  font-weight: bold;
+  padding: 10px 30px;
+  background-color: $red;
+  text-transform: uppercase;
+  box-shadow: 2px 2px 4px $black;
+}

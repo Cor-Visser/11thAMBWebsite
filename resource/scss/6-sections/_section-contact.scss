@@ -1,0 +1,53 @@
+//----------------------------------------
+//    Contact - General
+//----------------------------------------
+
+#contact {
+  width: 100%;
+  height: auto;
+  outline: none;
+  padding: 40px 0px;
+  background-color: $grey;
+}
+
+//----------------------------------------
+//    Contact - Other
+//----------------------------------------
+
+#contact .contact-form {
+  width: 100%;
+  height: auto;
+  overflow: auto;
+}
+
+#contact .contact-form input,
+#contact .contact-form select,
+#contact .contact-form textarea {
+  float: left;
+  border: 0px;
+  outline: 0px;
+  padding: 10px;
+  font-size: 16px;
+  margin-left: 20px;
+  width: calc((100% - 40px) / 3);
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#contact .contact-form input[type="text"],
+#contact .contact-form textarea {
+  margin-left: 0px;
+}
+
+#contact .contact-form textarea {
+  width: 100%;
+  resize: none;
+  height: 200px;
+  margin-top: 10px;
+}
+
+#contact .contact-form input[type="submit"] {
+  width: auto;
+  float: right;
+  margin-top: 10px;
+  padding: 10px 30px;
+}

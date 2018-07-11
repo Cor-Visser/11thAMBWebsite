@@ -1,0 +1,32 @@
+//----------------------------------------
+//    All of the basics of the website
+//----------------------------------------
+
+body {
+  font-size: 16px;
+  background-color: $grey;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.wrapper {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.wrapper-center-horizontal {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper-center-all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
